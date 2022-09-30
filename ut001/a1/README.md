@@ -61,7 +61,53 @@ Asímismo, vamos a añadir la dirección IP de Ubuntu Server y sus dominios en n
 sudo nano /etc/hosts
 ~~~
 
-![](/img/img001.PNG)
+<br>
+
+![](img/img001.PNG)
+
+<br>
+
+Una vez configurado este apartado, procedemos a crear un nuevo servidor, pero debemos hacerlo en la siguiente ruta:
+
+~~~
+/etc/nginx/sites-avaliable
+~~~
+
+En nuestro caso, se llamará "nahuel.me", pero puedes ponerle el nombre que gustes. Finalmente, debería quedar configurado de la siguiente forma:
+
+<br>
+
+![](img/img003.PNG)
+
+<br>
+
+![](img/img004.PNG)
+
+<br>
+
+Una vez realizado este paso, vamos a crear un enlace simbólico en la carpeta ~~~ sites-enabled ~~~ mediante el comando ~~~ ln -s ~~~ , quedando de la siguiente manera:
+
+<br>
+
+~~~
+sudo ln -s ../sites-avaliable/nahuel.me
+~~~
+
+* Ojo, porque hay que encontrarse dentro de la ruta "sites-enabled" 
+
+<br>
+
+Si hemos realizado el paso correctamente, debería de resaltar con otro color, azul en nuestro caso. 
+
+<br>
+
+![](img/img005.png)
+
+<br>
+
+
+
+
 
 ## 2 - Creación de la Página Web
 

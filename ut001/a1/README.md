@@ -63,7 +63,6 @@ sudo nano /etc/hosts
 
 ![](/img/img001.PNG)
 
-
 ## 2 - Creación de la Página Web
 
 ## 3 - Configuración de la Página Web

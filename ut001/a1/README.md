@@ -5,7 +5,10 @@
 
 </center>
 
-***Nombre:*** Nahuel Ivan Troisi
+***Nombre:*** Nahuel Ivan Troisi 
+
+<br>
+
 ***Curso:*** 2º de Ciclo Superior de Administración de Sistemas Informáticos en Red.
 
 ### ÍNDICE
@@ -19,24 +22,28 @@
 
 #### ***Introducción***. <a name="id1"></a>
 
-Aquí explicamos brevemente la parte teórica que tiene que ver con la práctica que se va a realizar
+En esta práctica vamos a crear un sevidor web con la herramienta de Nginx y en ella vamos a alojar distintos servicios, entre ellos, una página web. 
 
 #### ***Objetivos***. <a name="id2"></a>
 
-Aquí explicamos los objetivos que se pretenden alcanzar al realizar la práctica.
+La finalidad de dicha práctica es conseguir crear la página web y alojar cierta información en la misma. En nuestro caso, vamos a crear un listado de
+nuestras series favoritas, con sus respectivas carátulas y si hacemos click en las imágenes, nos redigirá a una página web donde podemos encontrar
+información sobre ésta. 
 
 #### ***Material empleado***. <a name="id3"></a>
 
-Enumeramos el material empleado tanto hardware como software y las conficuraciones que hacemos (configuraciones de red por ejemplo) 
+En este caso, vamos a hacer uso de dos máquinas virtuales, una con Ubuntu y otra con Kali Linux (aunque en este caso se puede utilizar cualquier otra si se desea).
+En la MV de Ubuntu vamos a configurar y administrar nuestros servidor web, además de crear la página web. Por otro lado, la máquina de Kali Linux
+nos servirá para poder detallar toda la documentación necesaria para elaborar el informe sobre la misma. 
 
 #### ***Desarrollo***. <a name="id4"></a>
 
-En esta parte explicamos detalladamente los pasos que seguimos para realizar la práctica incluyendo capturas de pantalla y explicando que vemos en ellas. 
+## 1 - Configuración del Servidor Web
 
-> ***IMPORTANTE:*** si estamos capturando una terminal no hace falta capturar todo el escritorio y es importante que se vea el nombre de usuario.
+## 2 - Creación de la Página Web
 
-Si encontramos dificultades a la hora de realizar algún paso debemos explicar esas dificultades, que pasos hemos seguido para resolverla y los resultados obtenidos.
+## 3 - Configuración de la Página Web
 
 #### ***Conclusiones***. <a name="id5"></a>
 
-En esta parte debemos exponer las conclusiones que sacamos del desarrollo de la prácica.
+

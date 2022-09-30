@@ -51,7 +51,7 @@ En primer lugar, debemos asignar una IP fija en la MV de Ubuntu Server, para pod
 
 <br>
 
-![](/img/img002.png)
+![](img/img002.PNG)
 
 <br>
 

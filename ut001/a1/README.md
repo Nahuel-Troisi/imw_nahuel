@@ -119,7 +119,7 @@ En este punto, vamos a dirigirnos a la siguiente ruta:
 /var/www/html
 ~~~
 
-Aqui es donde se almacenan todas la configuraciones de las distintas páginas web que nosotros vayamos a crear, organizadas por carpetas. En nuestro caso,vamos a
+Aqui es donde se almacenan todas la configuraciones de las distintas páginas web que nosotros vayamos a crear, organizadas por carpetas. En nuestro caso, vamos a
 crear la carpeta ***"series"*** y dentro de la misma vamos a crear el archivo ***"index.html"*** con el que vamos a darle forma y color a nuestra página web. 
 
 <br>

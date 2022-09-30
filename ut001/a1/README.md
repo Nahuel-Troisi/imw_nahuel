@@ -132,7 +132,7 @@ crear la carpeta ***"series"*** y dentro de la misma vamos a crear el archivo **
 
 ## 3 - Configuración de la Página Web
 
-Para concluir, en este archivo ***html** vamos a configurar nuestra página web, donde vamos a añadir cinco series que más nos gusten, con la condición de que
+Para concluir, en este archivo ***html*** vamos a configurar nuestra página web, donde vamos a añadir cinco series que más nos gusten, con la condición de que
 al hacer click en la imágen, ésta nos redirija a una página web externa que nos proporcione información sobre la misma (número de temporadas, capítulos, sinopsis,
 etc...).
 

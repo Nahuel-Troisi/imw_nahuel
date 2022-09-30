@@ -142,7 +142,7 @@ etc...).
 
 <br>
 
-Una vez terminado, debería qudar algo así:
+Una vez terminado, debería quedar algo así:
 
 <br>
 

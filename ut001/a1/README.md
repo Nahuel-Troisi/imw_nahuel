@@ -47,7 +47,14 @@ Primero que nada, partimos de haber descargado previamente Nginx, pero antes de 
 
 <br>
 
-En primer lugar, debemos asignar una IP fija en la MV de Ubuntu Server, para poder trabajar de una manera más cómoda y eficaz cada vez que hagamos uso de ésta. 
+En primer lugar, debemos asignar una IP fija en la MV de Ubuntu Server, para poder trabajar de una manera más cómoda y eficaz cada vez que hagamos uso de ésta. Por lo
+que vamos a dirigirnos al siguiente directorio para editar el archivo de configuración.
+
+~~~
+/etc/netplan
+~~~
+
+Y procedemos a configurar el fichero de la siguiente manera:
 
 <br>
 
@@ -73,7 +80,7 @@ Una vez configurado este apartado, procedemos a crear un nuevo servidor, pero de
 /etc/nginx/sites-avaliable
 ~~~
 
-En nuestro caso, se llamará "nahuel.me", pero puedes ponerle el nombre que gustes. Finalmente, debería quedar configurado de la siguiente forma:
+En nuestro caso, se llamará ***"nahuel.me"***, pero puedes ponerle el nombre que gustes. Finalmente, debería quedar configurado de la siguiente forma:
 
 <br>
 
@@ -93,7 +100,7 @@ Una vez realizado este paso, vamos a crear un enlace simbólico en la carpeta **
 sudo ln -s ../sites-avaliable/nahuel.me
 ~~~
 
-+ Ojo, porque hay que encontrarse dentro de la ruta "sites-enabled" 
+***Ojo, porque hay que encontrarse dentro de la ruta "sites-enabled"*** 
 
 <br>
 
@@ -103,16 +110,46 @@ Si hemos realizado el paso correctamente, debería de resaltar con otro color, a
 
 ![](img/img005.PNG)
 
-<br>
-
-
-
-
 
 ## 2 - Creación de la Página Web
 
+En este punto, vamos a dirigirnos a la siguiente ruta:
+
+~~~
+/var/www/html
+~~~
+
+Aqui es donde se almacenan todas la configuraciones de las distintas páginas web que nosotros vayamos a crear, organizadas por carpetas. En nuestro caso,vamos a
+crear la carpeta ***"series"*** y dentro de la misma vamos a crear el archivo ***"index.html"*** con el que vamos a darle forma y color a nuestra página web. 
+
+<br>
+
+![](img/img006.PNG)
+
+<br>
+
+![](img/img007.PNG)
+
 ## 3 - Configuración de la Página Web
 
-## ***Conclusiones***. <a name="id5"></a>
+Para concluir, en este archivo ***html** vamos a configurar nuestra página web, donde vamos a añadir cinco series que más nos gusten, con la condición de que
+al hacer click en la imágen, ésta nos redirija a una página web externa que nos proporcione información sobre la misma (número de temporadas, capítulos, sinopsis,
+etc...).
 
+<br>
+
+![](img/img008.PNG)
+
+<br>
+
+Una vez terminado, debería qudar algo así:
+
+<br>
+
+![](img/resultado.gif)
+
+## ***Conclusiones***. <a name="id5"></a>
+En esta práctica hemos podido aprender lo sencillo que puede ser alojar una página web en un servidor y poder acceder a la misma desde distintos dispositivos,
+así como crear infinidad de servidores web para distintos usos con muy pocos recursos, algo bastante parecido a lo que nos podemos encontrar en el aula
+como es el caso de "Leela". 
 

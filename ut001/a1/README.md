@@ -85,7 +85,7 @@ En nuestro caso, se llamará "nahuel.me", pero puedes ponerle el nombre que gust
 
 <br>
 
-Una vez realizado este paso, vamos a crear un enlace simbólico en la carpeta ~~~ sites-enabled ~~~ mediante el comando ~~~ ln -s ~~~ , quedando de la siguiente manera:
+Una vez realizado este paso, vamos a crear un enlace simbólico en la carpeta ***sites-enabled*** mediante el comando ***ln -s*** , quedando de la siguiente manera:
 
 <br>
 
@@ -93,7 +93,7 @@ Una vez realizado este paso, vamos a crear un enlace simbólico en la carpeta ~~
 sudo ln -s ../sites-avaliable/nahuel.me
 ~~~
 
-* Ojo, porque hay que encontrarse dentro de la ruta "sites-enabled" 
++ Ojo, porque hay que encontrarse dentro de la ruta "sites-enabled" 
 
 <br>
 
@@ -101,7 +101,7 @@ Si hemos realizado el paso correctamente, debería de resaltar con otro color, a
 
 <br>
 
-![](img/img005.png)
+![](img/img005.PNG)
 
 <br>
 

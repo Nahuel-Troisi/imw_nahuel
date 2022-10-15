@@ -50,7 +50,7 @@ hace referencia al punto anterior ya que, para que funcione correctamente, deben
 
 Posteriormente, vamos a entrar en la carpeta "shared" y vamos a realizar una serie de enlaces simbólicos hacia las rutas que se muestran a continuación. 
 
-![]/img/4.png)
+![](img/4.png)
 
 Ahora vamos a dirigirnos de nuevo al fichero "nahuel.me" y vamos a habilitar el "autoindex". 
 

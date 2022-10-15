@@ -9,7 +9,7 @@
 <br>
 ***Curso:*** 2º de Ciclo Superior de Administración de Sistemas Informáticos en Red.
 
-### ÍNDICE
+## ÍNDICE
 
 + [Introducción](#id1)
 + [Objetivos](#id2)
@@ -18,19 +18,20 @@
 + [Conclusiones](#id5)
 
 
-#### ***Introducción***. <a name="id1"></a>
+## ***Introducción***. <a name="id1"></a>
 
-Aquí explicamos brevemente la parte teórica que tiene que ver con la práctica que se va a realizar
+Vamos a realizar una práctica en la cual vamos a ver como listar una serie de directorios con la configuración "autoindex". 
 
-#### ***Objetivos***. <a name="id2"></a>
+## ***Objetivos***. <a name="id2"></a>
 
-Aquí explicamos los objetivos que se pretenden alcanzar al realizar la práctica.
+El objetivo es conseguir entrar en la página "nahuel.me/shared" y encontrar el listado de directorios correctamente configurado. 
 
-#### ***Material empleado***. <a name="id3"></a>
+## ***Material empleado***. <a name="id3"></a>
 
-Enumeramos el material empleado tanto hardware como software y las conficuraciones que hacemos (configuraciones de red por ejemplo) 
+Vamos a hacer uso de dos máquinas virtuales, una de Ubuntu Server donde se aloja el servidor nginx y la otra será de Kali Linux, la cual servirá
+para poder acceder de forma remota, además de realizar el informe correspondiente. 
 
-#### ***Desarrollo***. <a name="id4"></a>
+## ***Desarrollo***. <a name="id4"></a>
 
 Para crear un listado de directorios, primero deberemos dirigirnos al fichero de configuración "nahuel.me", el cual se encuentra
 en "/etc/nginx/sites-avaliable". 
@@ -65,7 +66,7 @@ Finalmente, comprobamos que funciona correctamente.
 ![](img/7.png)
 
 
-#### ***Conclusiones***. <a name="id5"></a>
+## ***Conclusiones***. <a name="id5"></a>
 
-En esta parte debemos exponer las conclusiones que sacamos del desarrollo de la prácica.
-
+Esta práctica ha resultado ser bastante sencilla, dado que partimos de la práctica anterior en la cual los pasos a seguir son bastante similares por lo que
+la dificultad y el tiempo empleado para la misma ha sido bastante bajo.

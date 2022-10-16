@@ -22,9 +22,16 @@
 
 ## ***Introducción***. <a name="id1"></a>
 
+En esta práctica vamos a crear diferentes servicios web, los cuales vamos a configurar de una manera concreta como veremos a continuación. 
+
 ## ***Objetivos***. <a name="id2"></a>
 
+Crear los servicios web de forma ordenada y correcta, así como sus archivos de configuración y la comprobación de su correcto funcionamiento. 
+
 ## ***Material empleado***. <a name="id3"></a>
+
+En esta práctica, al igual que las anteriores, disponemos de dos máquinas virtuales, una con Ubuntu Server y la otra con Ubuntu para conectarnos de forma remota. No
+obstante, el informe se realiza con el máquina de Kali Linux. 
 
 ## ***Desarrollo***. <a name="id4"></a>
 
@@ -84,7 +91,7 @@ por configurar el servidor.
 
 ![](img/12.png)
 
-** Ojo, que hay que hacer uso del "autoindex" para que funcione **
+***Ojo, que hay que hacer uso del "autoindex" para que funcione***
 
 Una vez realizado este paso, añadimos la página al listado de hosts y reiniciamos el servicio para comprobar que funciona. 
 
@@ -161,3 +168,7 @@ Finalmente, añadimos el sitio web de redireccionamiento al archivo "hosts" y co
 ![](img/28.png)
 
 ## ***Conclusiones***. <a name="id5"></a>
+
+Esta práctica ha sido algo más tediosa y complicada que las anteriores, ya que hay que estar constantemente creando nuevos servicios con configuraciones totalmente
+diferentes entre sí, por no hablar de los subdirectorios, los achivos "index.html" y la correcta colocación de los "root", lo que ha dado muchos dolores de cabeza
+y ha sido un constante ensayo y error. No obstante, esa es la gracia de la práctica. 
